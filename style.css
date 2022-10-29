@@ -1,0 +1,136 @@
+:root {
+	--dark: #374151;
+	--darker: #1F2937;
+	--darkest: #111827;
+	--grey: #6B7280;
+	--pink: #EC4899;
+	--purple: #8B5CF6;
+	--light: #EEE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, var(--darkest), var(--purple));
+}
+h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h2{
+    text-align: center;
+    margin: 1rem 0 3rem;
+    color:rgb(190, 146, 146) ;
+}
+.title{
+    color:white;
+    font-weight: 500;
+    font-size: 60px;
+    margin-top:50px ;
+}
+.name{
+
+    color: aqua;
+    margin-bottom: 30px;
+}
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+
+    padding: 0.5rem 1rem;
+    outline: none;
+    height: 45px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0.40rem;
+    transition: .5s;
+    font-size: 1.15rem;
+
+}
+.add{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    width: 120px;
+    font-size: 20px;
+}
+.add:hover{
+    background-image: linear-gradient(to right, var(--darkest), var(--purple));
+    color: rgb(172, 241, 43);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.item_input{
+
+    background: white;
+    outline: none;
+    border: 3px solid lightslategray;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+
+}
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    color: red;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+
+
+}
+.remove_btn{
+
+    margin-top: 35px;
+    background-image: linear-gradient(to right, var(--darkest), var(--purple));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgb(160, 231, 26);
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    border: 2px;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+    height: 55px;
+    width: 180px;
+    cursor: pointer;
+}
+.remove_btn:hover{
+    color: linear-gradient(to right, var(--pink), var(--purple));
+    background: rgb(15, 2, 2);
+    letter-spacing: 2px;
+
+}
+
+
